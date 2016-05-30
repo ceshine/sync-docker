@@ -1,6 +1,7 @@
 #! /bin/bash
 
-mkdir -p /mnt/sync/folders
+mkdir -p /mnt/sync/folders/default
 mkdir -p /mnt/sync/config
+
 
 exec /usr/sbin/btsync --nodaemon $*
